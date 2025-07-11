@@ -51,11 +51,13 @@ nav button{
     border-radius: 10px;
     width: 132px;
     border: none;
+    transition: transform 1.3s ease;
     
 }
 nav button:hover{
     background-color: blueviolet;
     cursor: pointer;
+    transform: scale(1.1);
      
 }
 .banner{
@@ -77,12 +79,13 @@ padding: 80px 40px;
     width: 180px;
     border: none;
     margin-top: 20px;
+    transition: transform 1.3s ease;
 
 }
 .banner button:hover{
     background-color: blueviolet;
     cursor: pointer;
-    
+    transform: scale(1.1);
 }
 
 /* action section */
@@ -99,10 +102,12 @@ padding: 80px 40px;
     width: 180px;
     border: none;
     margin-top: 20px;
+    transition: transform 1.3s ease;
 }
 .action-button:hover{
     background-color: blueviolet;
     cursor: pointer;
+    transform: scale(1.1);
 
 }
 .action-left h1{
@@ -160,7 +165,7 @@ padding: 80px 40px;
 .user-say{
     text-align: left;
     padding: 20px;
-    box-shadow: 0 1px 4px #917d7d;
+    box-shadow: 0 0 1px  #917d7d;
 }
 .user-say h3{
     font-weight: bold;
@@ -176,6 +181,43 @@ padding: 80px 40px;
 }
 span {
     color: #757575;
+}
+
+/* hero section */
+.hero{
+    text-align: center;
+    display:block;
+    margin: 80px auto;
+}
+.hero h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+.hero p{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.hero button{
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    width: 180px;
+    border: none;
+    margin-top: 10px;
+    transition: transform 1.3s ease;
+}
+.hero button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.hero img{
+    margin: 20px;
+    border-radius: 20px;
 }
 
 /*touch section  */
@@ -221,10 +263,12 @@ span {
     border: none;
     width: 461px;
     height: 50px;
+    transition: transform 1.3s ease;
 }
 .touch-right input[type="button"]:hover{
     background-color: blueviolet;
     cursor: pointer;
+    transform: scale(1.05);
    
 }
 
@@ -234,3 +278,32 @@ label{
 }
 
 /* footer section */
+footer{
+    text-align: center;
+    padding: 100px 200px;
+    align-items: center;
+
+   
+}
+
+footer h1{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin: 15px;
+}
+footer p{
+    margin-bottom: 20px;
+    color: #8987A1;
+}
+.footer-nav{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+} 
+.footer-nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: #8987A1;
+}   
+
